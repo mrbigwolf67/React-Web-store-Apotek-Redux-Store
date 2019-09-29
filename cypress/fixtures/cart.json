@@ -1,0 +1,26 @@
+[
+    {
+        "Id": 3,
+        "Name": "Scholl Velvet Smooth Slipytor",
+        "Pic": "https://www.apoteket.se/produktbilder/custom/211748s.jpg",
+        "Price": 119.2,
+        "Quantity": 5,
+        "isInstorage": true
+    },
+    {
+        "Id": 2,
+        "Name": "Novalucol",
+        "Pic": "https://www.apoteket.se/produktbilder/Validoo/478248s.jpg",
+        "Price": 82,
+        "Quantity": 6,
+        "isInstorage": true
+    },
+    {
+        "Id": 4,
+        "Name": "Apoteket Senap Original",
+        "Pic": "https://www.apoteket.se/produktbilder/custom/331413s.jpg",
+        "Price": 119.2,
+        "Quantity": 7,
+        "isInstorage": true
+    }
+]

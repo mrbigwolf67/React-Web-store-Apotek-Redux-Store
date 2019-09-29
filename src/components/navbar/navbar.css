@@ -1,0 +1,41 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: white;
+  z-index: 10; }
+
+.navbar-center {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem; }
+
+.nav-icon {
+  font-size: 1.5rem; }
+
+.cart-btn {
+  position: relative;
+  cursor: pointer; }
+
+.cart-items {
+  position: absolute;
+  top: -7px;
+  right: -10px;
+  background: #5bac26;
+  padding: 0 5px;
+  border-radius: 30%;
+  color: #f3f7f4;
+  font-size: 1rem;
+  font-weight: 700;
+  -webkit-border-radius: 30%;
+  -moz-border-radius: 30%;
+  -ms-border-radius: 30%;
+  -o-border-radius: 30%;
+  text-align: center; }

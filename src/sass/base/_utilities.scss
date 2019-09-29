@@ -1,0 +1,54 @@
+@import "../abstracts/variables";
+
+.error {
+  width: 100%;
+  text-align: center;
+  background-color: $errorInfoColor;
+  color: rgb(252, 249, 249);
+  padding: 12px;
+  top: 60px;
+  position: absolute;
+  z-index: 500;
+  transition: top 1s ease-out;
+  -webkit-transition: top 1s ease-out;
+  -moz-transition: top 1s ease-out;
+  -ms-transition: top 1s ease-out;
+  -o-transition: top 1s ease-out;
+}
+
+.success {
+  width: 100%;
+  text-align: center;
+  background-color: $primaryColor;
+  color: rgb(252, 249, 249);
+  padding: 12px;
+  position: absolute;
+  z-index: 500;
+  transition: top 1s ease-out;
+  -webkit-transition: top 1s ease-out;
+  -moz-transition: top 1s ease-out;
+  -ms-transition: top 1s ease-out;
+  -o-transition: top 1s ease-out;
+}
+
+
+/* ---------------Media querys ---------------- */
+
+@media only screen and (max-width: 750px) {
+    .hero{
+      align-items: flex-start;
+    }    
+    .section-title h2 {
+     display: none;
+    }
+    .banner-title {
+      font-size: 1.4rem;
+      text-transform: uppercase;         
+      margin-bottom: 1rem;
+      font-weight: 900;
+    }
+    .product h3 {
+      font-size: 1rem;
+    }
+  }
+  

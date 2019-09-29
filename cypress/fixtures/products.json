@@ -1,0 +1,58 @@
+[
+    {
+    "Id": 1,
+    "Name": "Postafen®",
+    "Description": "Tablett 25 mg 10 styck Blister",
+    "Pic": "https://www.apoteket.se/produktbilder/Validoo/165787s.jpg",
+    "Price": 63.2,
+    "Buyable": true
+    },
+    {
+    "Id": 2,
+    "Name": "Novalucol®",
+    "Description": "Tuggtablett 100 styck Blister",
+    "Pic": "https://www.apoteket.se/produktbilder/Validoo/478248s.jpg",
+    "Price": 82,
+    "Buyable": true
+    },
+    {
+    "Id": 3,
+    "Name": "Scholl Velvet Smooth Slipytor",
+    "Description": "Slipytor till Elektrisk fotfil 2 st",
+    "Pic": "https://www.apoteket.se/produktbilder/custom/211748s.jpg",
+    "Price": 119.2,
+    "Buyable": true
+    },
+    {
+    "Id": 4,
+    "Name": "Apoteket Senap Original",
+    "Description": "",
+    "Pic": "https://www.apoteket.se/produktbilder/custom/331413s.jpg",
+    "Price": 69,
+    "Buyable": true
+    },
+    {
+    "Id": 5,
+    "Name": "Nasonex®",
+    "Description": "Nässpray, suspension 50 mikrogram/dos 140 dos(er) Flaska",
+    "Pic": "https://www.apoteket.se/produktbilder/Validoo/023195s.jpg",
+    "Price": 183.2,
+    "Buyable": true
+    },
+    {
+    "Id": 6,
+    "Name": "Scholl VS nagelvårdskit refill",
+    "Description": "",
+    "Pic": "https://www.apoteket.se/produktbilder/custom/687228s.jpg",
+    "Price": 87.2,
+    "Buyable": true
+    },
+    {
+    "Id": 7,
+    "Name": "Invisibobble Original Crystal Clear",
+    "Description": "Extra skonsam för håret 1 st",
+    "Pic": "https://www.apoteket.se/produktbilder/custom/212650s.jpg",
+    "Price": 59,
+    "Buyable": true
+    }
+]

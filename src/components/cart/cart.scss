@@ -1,0 +1,68 @@
+@import "../../sass/abstracts/variables";
+/*---------- Cart Item -------------------- */
+.cart-content {
+    width: 90vw;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 650px;
+}
+.cart-item {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto 1fr auto;
+    grid-column-gap: .2rem;
+    margin: 1rem 0;
+  }
+  .cart-item img {
+    width: 75px;
+    height: 75px;
+  }
+  .cart-item h4 {
+    font-size: 0.85rem;
+    text-transform: capitalize;
+    letter-spacing: var(--mainSpacing);
+  }
+  .cart-item h5 {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #5bac26;  
+    font-weight: 700;
+    letter-spacing: var(--mainSpacing);
+  }
+  .item-amount {
+    text-align: center;
+    font-weight: 700;
+    color: #5bac26;
+  }
+  .remove-item {
+    color: rgb(170, 15, 15);
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .fa-plus-circle,
+  .fa-minus-circle {    
+    cursor: pointer;
+  }
+  /*---------- End of Cart Item -------------------- */
+  .clear-cart {
+    display: flex;
+    padding: 1rem 3rem;
+    margin:0 auto;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-size: .8rem;
+    background: transparent;
+    color: #5bac26;
+    font-weight: 800;
+    border: 1px solid #5bac26;    
+    cursor: pointer;    
+  }
+  .cart-footer {
+    margin: 2rem 0;   
+    text-align: center;
+  }
+  .cart-footer h3 {
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+  }
+  
